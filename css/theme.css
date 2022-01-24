@@ -94,7 +94,7 @@ License URI:
     padding: 0 50px;
 }
 .sec-4{
-    background: rgba(12, 35, 64, 1);
+    background: linear-gradient(90deg, rgba(29, 43, 100, 0.89) 0%, rgba(247, 119, 114, 0.83) 100%);    
     display: block;
 }
 .loop_3{
@@ -8689,7 +8689,7 @@ blockquote{
     padding-right: 30px;
 }
 .dl-menu__wrap ul li a::after {
-    background-color: #138bff;
+    background-color: #0C2340;
     content: '';
     height: 100%;
     margin: auto;
