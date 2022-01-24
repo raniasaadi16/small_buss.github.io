@@ -45,24 +45,8 @@ License URI:
 .text-white{
     color: #fff;
 }
-.why-text{
-    font-weight: 400;
-    line-height: 1.4;
-}
-.why-sec{
-    background-color: #f7f7f7;
-    padding: 0 !important;
-    height: 100vh;
-}
-.why-sec .text-box{
-    padding: 37px 15px;
-    margin: auto;
-    height: max-content !important;
-}
-.why-sec .row{
-    margin-right: 0;
-    height: 100%;
-    display: flex;
+.why-sec p{
+    font-size: 20px;
 }
 .why-sec .col-lg-6{
     height: 100%;
@@ -73,7 +57,61 @@ License URI:
 .row{
     display: flex;
 }
-
+.p-0{
+    padding: 0 !important;
+}
+.aboutsecion p{
+    font-size: 20px;
+    line-height: 1.4;
+    text-align: justify;
+}
+.aboutsecion img{
+    max-height: 305px;
+    object-fit: cover;
+}
+.aboutsecion h2{
+    margin-bottom: 20px !important;
+}
+.m-auto{
+    margin: auto;
+}
+.blogSection img{
+    height: 100%;
+    object-fit: cover;
+    min-height: 250px;
+}
+.sec-2{
+    display: block;
+    background: linear-gradient(90deg, rgba(29, 43, 100, 0.89) 0%, rgba(247, 119, 114, 0.83) 100%);;
+}
+.row-padding{
+    padding: 0 170px;
+}
+.sec-3 .sec_title{
+    margin-bottom: 23px;
+}
+.padding-sec-4{
+    padding: 0 50px;
+}
+.sec-4{
+    background: rgba(12, 35, 64, 1);
+    display: block;
+}
+.loop_3{
+    height: auto !important;
+}
+.loop_3 img{
+    min-height: 500px !important;
+}
+.loop_3 h2{
+    color: #fff;
+}
+.box-linear{
+    background: linear-gradient(90deg, rgba(29, 43, 100, 0.89) 0%, rgba(247, 119, 114, 0.83) 100%) !important;
+}
+.box-linear h2,.box-linear p{
+    color: #fff !important;
+}
 /*------------------------------------------------------------------------------
 / 1. Home 01
 ------------------------------------------------------------------------------*/
@@ -1483,7 +1521,7 @@ svg:not(:root) {
 }
 .contact_info p i{
     font-size: 18px;
-    color: #138bff;
+    color: #0C2340;
     letter-spacing: 0;
     line-height: .8;
     position: absolute;
@@ -3479,8 +3517,7 @@ svg:not(:root) {
     background: #FFF;
     border: 2px solid #f4f4f4;
     padding-right: 40px;
-    margin: 40px 0;
-
+    height: 100%;
     transition: all ease 300ms;
     -moz-transition: all ease 300ms;
     -webkit-transition: all ease 300ms;
@@ -3734,6 +3771,11 @@ svg:not(:root) {
     transition: all ease 300ms;
     -moz-transition: all ease 300ms;
     -webkit-transition: all ease 300ms;
+    min-height: 500px;
+    object-fit: cover;
+}
+.work_loop_3 h2{
+    color: #fff;
 }
 .wl3_thumb{
     background: #000;
@@ -5657,7 +5699,7 @@ svg:not(:root) {
     height: 100vh;
 }
 .banner_5.overlay:after{
-    background: rgba(0, 0, 0, .4);
+    background: linear-gradient(80deg, rgba(238, 56, 49,.8) 0%, rgba(12, 35, 64,.8) 100%);
 }
 .banner_5 .sec_sub_title{
     letter-spacing: 2px;
@@ -9185,7 +9227,7 @@ blockquote{
     display: block;
     position: relative;
     width: 100%;
-    background: url(../images/dots.jpg) no-repeat center center / cover;
+    background: url(../images/dots.jpg) repeat #fff;
     padding: 39px 40px 34px;
     /* background: rgba(0, 0, 0, .98); */
     height: 100%;

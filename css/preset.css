@@ -124,8 +124,7 @@ a:hover, a:focus{
     letter-spacing: 1px;
     line-height: 43px;
     text-transform: uppercase;
-    background: rgb(236,7,199);
-    background: linear-gradient(80deg, rgba(236,7,199,1) 0%, rgba(19,139,255,1) 100%);
+    background: linear-gradient(90deg, rgba(29, 43, 100, 0.89) 0%, rgba(247, 119, 114, 0.83) 100%) !important;
     transition: all ease 400ms;
     -ms-transition: all ease 400ms;
     -webkit-transition: all ease 400ms;
@@ -161,7 +160,7 @@ button.ast_btn{
     z-index: 1;
     opacity: 0;
     background: rgb(236,7,199);
-    background: linear-gradient(-80deg, rgba(236,7,199,1) 0%, rgba(19,139,255,1) 100%);
+    background: linear-gradient(-90deg, rgba(29, 43, 100, 0.89) 0%, rgba(247, 119, 114, 0.83) 100%);
     transition: all ease 400ms;
     -ms-transition: all ease 400ms;
     -webkit-transition: all ease 400ms;
@@ -299,9 +298,9 @@ input:focus, a:focus, select:focus, textarea:focus, button:focus{
     top: 0;
     width: 100%;
     height: 100%;
-    /*    background: rgba(0, 0, 0, .65);*/
+    background: rgba(0, 0, 0, .65);
     content: '';
-    background: radial-gradient(47.54% 105.66% at 50.53% 52.46%, rgba(238, 56, 49, 0.5) 0%, rgba(12, 35, 64, 0.67) 100%);;
+    /* background: radial-gradient(47.54% 105.66% at 50.53% 52.46%, rgba(238, 56, 49, 0.5) 0%, rgba(12, 35, 64, 0.67) 100%);; */
 }
 .overlay.ov2:after{
     background: rgb(63,94,251);
@@ -348,7 +347,7 @@ input:focus, a:focus, select:focus, textarea:focus, button:focus{
     font-weight: 400;
     font-size: 16px;
     letter-spacing: 1px;
-    color: #138bff;
+    color: #0C2340;
     line-height: .8;
     margin: 0 0 22px;
     text-transform: uppercase;
