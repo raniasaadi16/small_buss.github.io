@@ -141,6 +141,13 @@ License URI:
 .h-full{
     height: 100% !important;
 }
+.serv_img{
+    width: 56px !important;
+    margin-bottom: 34px;
+}
+.serv-adm .icon_box_5{
+    min-height: 442px;
+}
 @media screen and (max-width: 992px) {
     .row{
         display: initial;
@@ -1094,7 +1101,7 @@ License URI:
     -webkit-transition: all ease 300ms;
 }
 .team_slider_1.owl-carousel .owl-dots .owl-dot:hover, .team_slider_1.owl-carousel .owl-dots .owl-dot.active{
-    background: #138bff;
+    background: #0C2340;
 }
 .team_slider_1.owl-carousel .owl-dots .owl-dot.active{
     width: 10px;
@@ -3596,8 +3603,7 @@ svg:not(:root) {
     display: none;
 }
 .active.center .icon_box_5{
-    background: #138bff;
-    border-color: #138bff;
+    background: linear-gradient(90deg, rgba(29, 43, 100, 0.82) 0%, rgba(238, 56, 49, 0.82) 100%);
     box-shadow: 0px 10px 35px 0px rgba(0, 0, 0, 0.09);
 }
 .icon_box_5 > i{
@@ -3677,7 +3683,7 @@ svg:not(:root) {
     line-height: 10px;
     text-align: center;
     padding-top: 0;
-    margin-top: -10px;
+    margin-top: 30px;
 }
 .service_slider .owl-dots .owl-dot{
     margin: 0 5px;
@@ -3692,7 +3698,7 @@ svg:not(:root) {
     -webkit-transition: all ease 300ms;
 }
 .service_slider.owl-carousel .owl-dots .owl-dot:hover, .service_slider.owl-carousel .owl-dots .owl-dot.active{
-    background: #138bff;
+    background: #0C2340;
 }
 .service_slider.owl-carousel .owl-dots .owl-dot.active{
     width: 10px;
