@@ -112,6 +112,18 @@ License URI:
 .box-linear h2,.box-linear p{
     color: #fff !important;
 }
+.h-auto{
+    height: auto !important;
+}
+.ads p{
+    font-size: 17px !important;
+}
+.adword .sec_title{
+    margin-bottom: 20px;
+}
+.adword h4{
+    line-height: 1.4;
+}
 /*------------------------------------------------------------------------------
 / 1. Home 01
 ------------------------------------------------------------------------------*/
@@ -1863,10 +1875,12 @@ svg:not(:root) {
 }
 .abs_img{
     overflow: hidden;
+    height: 100%;
 }
 .abs_img img{
     width: 100%;
-    height: auto;
+    height: 100%;
+    object-fit: cover;
 }
 .ab_content{
     position: relative;
@@ -3496,7 +3510,8 @@ svg:not(:root) {
     margin-bottom: 0;
 }
 .arrow_ul li:before{
-    background: linear-gradient(130deg, rgba(236,7,199,1) 0%, rgba(19,139,255,1) 100%);
+    background: linear-gradient(90deg, rgba(29, 43, 100, 0.89) 0%, rgba(247, 119, 114, 0.83) 100%);
+    background-clip: text;
     border-radius: 50%;
     position: absolute;
     left: 0;

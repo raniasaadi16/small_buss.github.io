@@ -348,7 +348,7 @@ input:focus, a:focus, select:focus, textarea:focus, button:focus{
     font-size: 16px;
     letter-spacing: 1px;
     color: #0C2340;
-    line-height: .8;
+    line-height: 1.4;
     margin: 0 0 22px;
     text-transform: uppercase;
 }
