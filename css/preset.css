@@ -361,7 +361,7 @@ input:focus, a:focus, select:focus, textarea:focus, button:focus{
 .sec_title{
     font-size: 36px;
     line-height: 40px;
-    margin-bottom: 45px;
+    margin-bottom: 20px;
 }
 .sec_title.white{
     color: #fff;
